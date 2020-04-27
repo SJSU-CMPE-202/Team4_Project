@@ -23,7 +23,7 @@ def parse_read(file_name):
 # type is always 1 bytes
 # Length is always 2 bytes
 def parse_header(bytes_pages):
-    print("Length of Bytes_pages: ", len(bytes_pages))
+    print('Length of Bytes_pages:' + str(len(bytes_pages)))
     if len(bytes_pages) < 5:
         return None
     SCF_header = {}
